@@ -1,0 +1,20 @@
+<html>
+    <form Name="LoginForm">
+        Login: <input type="text" Name="LoginID">
+        <br>
+        <br>
+        Tpass: <input type="text" Name="Tpass">
+ </form>
+ <script>
+    if(str.length==0)
+    {
+        Alert("Field is empty");
+    }
+    if(strpass<8)
+    {
+        Alert("password too short");
+    }
+    var str =document.LoginForm.LoginID.value;
+    var strpass =document.LoginForm.Tpass.value;
+ </script>
+</html>
